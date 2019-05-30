@@ -26,7 +26,7 @@ while [ "$1" != "" ]; do
                                 ;;
         -a | --auto )           shift
                                 AUTOMOUNT=$1
-				;;
+                                ;;
         -h | --help )           usage
                                 exit
                                 ;;
